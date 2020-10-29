@@ -658,6 +658,12 @@ body {
   z-index: -1;
 }
 
+.lazyloadeds {
+  padding: 0 15px;
+  height: 130px;
+  width: 160px;
+}
+
 .mob-sty {
   color: #fff;
   padding: 20px 0;
@@ -670,10 +676,26 @@ body {
 .card-img-top {
   padding: 0 15px;
   border-radius: 60%;
-  height: 200px;
+  height: 180px;
+  width: 180px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (max-width: 560px) {
+  .card-img-top {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    height: 180px !important;
+    width: 180px !important;
+  }
 }
 
 .container-fluid {
   padding: 45px 0px 25px 0px;
+}
+
+.hackathon-container {
+  padding: 55px 40px;
 }
 /*# sourceMappingURL=main.css.map */
